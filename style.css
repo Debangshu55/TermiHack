@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Playpen+Sans+Deva:wght@100..800&display=swap');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(121, 242, 242);
+    color: black;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 25px;
+    background-image: url('https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+
+}
+
+
+button {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(204, 84, 84);
+    color: black;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px 20px;
+    /* Transition added */
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(170, 50, 50);
+    /* darker red */
+    color: white;
+    transform: scale(1.05);
+    /* slightly bigger */
+}
+
+@media (max-width: 1000px) {
+    button {
+        background-color: blanchedalmond;
+    }
+
+    body {
+
+        background-color: rgb(182, 227, 227);
+        color: black;
+        font-family: "Baloo Bhai 2", sans-serif;
+        font-size: 25px;
+        background-image: url('https://images.pexels.com/photos/3264665/pexels-photo-3264665.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    @media (max-width: 600px) {
+    button {
+        background-color: blanchedalmond;
+        font-size: 20px;
+    }
+
+    body {
+
+        background-color: rgb(182, 227, 227);
+        color: black;
+        font-family: "Baloo Bhai 2", sans-serif;
+        font-size: 20px;
+        background-image: url('https://images.pexels.com/photos/3264665/pexels-photo-3264665.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+}
