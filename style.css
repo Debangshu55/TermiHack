@@ -70,6 +70,7 @@ button:hover {
         background-repeat: no-repeat;
 
     }
+}
 
     @media (max-width: 600px) {
     button {
